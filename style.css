@@ -1,127 +1,154 @@
-html{
+html {
     scroll-behavior: smooth;
 }
-body{
+
+body {
     box-sizing: border-box;
 }
+
 .bg-light {
     background-color: #ef5959 !important;
 }
+
 .navbar {
-    padding:0 !important;
+    padding: 0 !important;
 }
-header{
-    
-    width:100%;
-    
+
+header {
+
+    width: 100%;
+
 }
-.my-nav{
+
+.my-nav {
     font-size: 25px !important;
     color: white !important;
     border-radius: 5px;
     transition: all 0.3s;
     font-weight: 700 !important;
 }
-.my-nav:hover{
+
+.my-nav:hover {
     background-color: white;
-    color:#ef5959 !important;
+    color: #ef5959 !important;
     transform: scale(1.1);
-   
+
 }
-.for-image img{
+
+.for-image img {
     width: 100%;
     object-fit: cover;
     z-index: 2;
 }
-.for-text{
-  
+
+.for-text {
+
     margin-top: 10rem;
     margin-bottom: 10rem;
 }
-.for-text h1,h2{
+
+.for-text h1,
+h2 {
     font-family: 'Lobster', cursive;
 }
-.for-text h1{
+
+.for-text h1 {
     font-size: 60px;
 }
-.for-text h2{
+
+.for-text h2 {
     font-size: 50px;
 }
-.for-text h5{
+
+.for-text h5 {
     font-family: 'Righteous', cursive;
-    color: #ef5959 ;
+    color: #ef5959;
     font-size: 25px;
 }
-.for-text button{
+
+.for-text button {
     padding: 10px 30px;
-    background:  #ef5959;
-    
+    background: #ef5959;
+
 }
-.for-text .btn-a{
-    color:white;
+
+.for-text .btn-a {
+    color: white;
     font-size: 20px;
     transition: all 0.3s;
 }
-.for-text button:hover{
-    background: white ;
-    border:3px solid #ef5959;
+
+.for-text button:hover {
+    background: white;
+    border: 3px solid #ef5959;
     transform: scale(1.1);
 }
-.for-text button:hover .btn-a{
+
+.for-text button:hover .btn-a {
     color: #ef5959;
     text-decoration: none;
 }
-.for-text p{
+
+.for-text p {
     font-size: 20px;
 }
-#About-Me{
+
+#About-Me {
     width: 100%;
     height: auto;
     background: #ef5959;
-   
+
 }
-.Am-text h1{
+
+.Am-text h1 {
     font-family: 'Piedra', cursive;
     font-size: 60px;
     margin-bottom: 10px;
 }
-.Am-text{
+
+.Am-text {
     transition: all 0.4s;
-}
-.Am-text:hover{
-    transform: scale(1.1);
-}
-.Am-img img{
-    width: 100%;
-    object-fit: cover;
-    border-radius: 10px ;
-    transition: all 0.4s;
-   
 }
 
-.Am-img{
-    border-radius: 10px;
-    z-index:1;
+.Am-text:hover {
+    transform: scale(1.1);
 }
+
+.Am-img img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: all 0.4s;
+
+}
+
+.Am-img {
+    border-radius: 10px;
+    z-index: 1;
+}
+
 .card {
     box-shadow: -1px -1px 19px #d7d0d0;
     border-radius: 8px !important;
     transition: all 0.3s;
     overflow: hidden;
 }
-.card:hover{
-    transform:scale(1.1)
+
+.card:hover {
+    transform: scale(1.1)
 }
 
 
-.button-card{
+.button-card {
     background: #ef5959;
     color: white;
-    transition:all 0.4s;
+    transition: all 0.4s;
 }
-.button-card:hover{
+
+.button-card:hover {
     transform: scale(1.2);
 }
+
 .card-btn {
     padding: 10px 35px;
     border: none;
@@ -130,29 +157,35 @@ header{
     background: #ef5959;
     transition: all 0.4s;
 }
+
 .card-btn a {
     font-size: 25px;
     text-transform: uppercase;
     color: white;
 }
-.card-btn:hover{
+
+.card-btn:hover {
     border: 3px solid #ef5959;
     background: white;
 }
-.card-btn:hover  a{
-    color:#ef5959
+
+.card-btn:hover a {
+    color: #ef5959
 }
-.skill-Wrapper{
-    background:  linear-gradient(#ef5959ba,#ef5959ba ) , url("bg-header-img.jpg");
+
+.skill-Wrapper {
+    background: linear-gradient(#ef5959ba, #ef5959ba), url("bg-header-img.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     height: auto;
 }
+
 .skill p {
     color: white;
 }
-.skill{
+
+.skill {
     transition: all 0.4s;
 }
 
@@ -170,32 +203,38 @@ header{
 .skill i {
     font-size: 50px;
     background: #fff;
-    padding:15px;
+    padding: 15px;
     transition: all 0.4s;
 }
-.skill:hover i{
+
+.skill:hover i {
     background: black;
     color: #fff;
 }
-.section-h1{
+
+.section-h1 {
     font-family: 'Suez One', serif;
     font-size: 60px;
-    color:white;
+    color: white;
 }
-.section-hr{
-    width:100px;
+
+.section-hr {
+    width: 100px;
     border: 8px dotted white;
     border-bottom: none;
 }
-.section-title{
+
+.section-title {
     transition: all 0.4s;
 }
-.section-title:hover h1{
-    color:rgb(61, 61, 61)
+
+.section-title:hover h1 {
+    color: rgb(61, 61, 61)
 }
+
 .card-heading.text-center {
     padding: 50px;
-    color:#ef5959;
+    color: #ef5959;
 }
 
 .db-card-img.col-lg-6 img {
@@ -205,6 +244,7 @@ header{
     padding: 0px 0px;
     border-radius: 10px;
 }
+
 /* .db-card{
     margin: 30px 0px;
 } */
@@ -215,9 +255,11 @@ header{
     margin: 50px 0px;
     box-shadow: 10px 6px 25px #bbbbbb;
 }
-.db-card-body{
+
+.db-card-body {
     background: #ef5959;
 }
+
 .card-sm-heading h3 {
     text-align: center;
     padding: 30px 0px;
@@ -231,9 +273,15 @@ header{
     text-align: justify;
     color: white;
 }
+
 .card-sm-heading ul {
     margin: 0px 0px 0px 30px;
     padding-top: 10px;
     font-size: 18px;
     color: white;
+}
+
+.footer {
+    text-align: center;
+    margin: 20px 0;
 }
